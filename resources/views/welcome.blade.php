@@ -25,7 +25,11 @@
                 <nav class="flex items-center justify-end gap-4">
                     @auth
                         <a
+<<<<<<< HEAD
                             href="{{ route('home') }}"
+=======
+                            href="{{ url('/dashboard') }}"
+>>>>>>> f4df3c487e9bfd7a44331a13946d6ab092dee692
                             class="inline-block px-5 py-1.5 dark:text-[#EDEDEC] border-[#19140035] hover:border-[#1915014a] border text-[#1b1b18] dark:border-[#3E3E3A] dark:hover:border-[#62605b] rounded-sm text-sm leading-normal"
                         >
                             Dashboard
@@ -273,5 +277,12 @@
         @if (Route::has('login'))
             <div class="h-14.5 hidden lg:block"></div>
         @endif
+<<<<<<< HEAD
+=======
+
+        <script>
+            //window.location.href = `{{ route('home') }}`;
+        </script>
+>>>>>>> f4df3c487e9bfd7a44331a13946d6ab092dee692
     </body>
 </html>

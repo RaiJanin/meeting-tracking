@@ -15,6 +15,7 @@ class DatabaseSeeder extends Seeder
     {
         // User::factory(10)->create();
 
+<<<<<<< HEAD
         $this->call([       
            UserSeeder::class,
            AgendaSeeder::class,
@@ -23,5 +24,11 @@ class DatabaseSeeder extends Seeder
 ]);
 
         
+=======
+        User::factory()->create([
+            'name' => 'Test User',
+            'email' => 'test@example.com',
+        ]);
+>>>>>>> f4df3c487e9bfd7a44331a13946d6ab092dee692
     }
 }
